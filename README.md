@@ -8,7 +8,7 @@ A Convolutional Neural Network project that implements the classic **AlexNet** a
 
 This project builds and trains an AlexNet-style CNN for image classification, then demonstrates inference using a pretrained ImageNet model (ResNet50) on a sample test image.
 
-- **Dataset**: A small ImageNet subset — *[imagenet-small-dataset-for-alexnet](https://www.kaggle.com/datasets/mdjahed0/imagenet-small-dataset-for-alexnet)* (hosted on Kaggle)
+- **Dataset**: A small ImageNet subset — *[ImageNetSmall](https://www.kaggle.com/datasets/shukdevdatta/imagenetsmall)* (hosted on Kaggle)
   - **4,000 training images** across **10 classes**
   - Images organized in `training_set/<class_name>/...` folder structure (compatible with Keras `flow_from_directory`)
 - **Preprocessing**:
@@ -53,7 +53,7 @@ pip install tensorflow numpy matplotlib
 ### 3. Get the dataset
 
 Download the dataset from Kaggle:
-👉 [imagenet-small-dataset-for-alexnet](https://www.kaggle.com/datasets/mdjahed0/imagenet-small-dataset-for-alexnet)
+👉 [ImageNetSmall](https://www.kaggle.com/datasets/shukdevdatta/imagenetsmall)
 
 Then update the dataset path in the notebook:
 
