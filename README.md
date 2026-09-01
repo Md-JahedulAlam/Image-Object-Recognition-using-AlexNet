@@ -3,7 +3,7 @@
 A Convolutional Neural Network project that implements the classic **AlexNet** architecture from scratch (using TensorFlow/Keras) to classify images from a 10-class subset of ImageNet, and compares it against a pretrained **ResNet50** for prediction.
 
 
----
+
 
 ## 📌 Project Overview
 
