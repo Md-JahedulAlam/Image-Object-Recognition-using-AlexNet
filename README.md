@@ -120,4 +120,4 @@ Image-Object-Recognition-using-AlexNet/
 ## 📝 Notes / Known Limitations
 
 - Training is done without a validation split, so the configured `EarlyStopping(monitor='val_loss')` callback has no effect in this run.
-- The final prediction step uses a pretrained **ResNet50** rather than the custom-trained AlexNet model — this is meant as an inference demo, not an evaluation of the trained AlexNet.
+- The final prediction step uses a pretrained **ResNet50** rather than the custom-trained AlexNet model — this is meant as an inference demo, not an evaluation of the trained AlexNet...
